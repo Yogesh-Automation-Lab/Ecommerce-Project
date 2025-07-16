@@ -14,6 +14,7 @@ public class AlertsCases {
 	public static void main(String[] args) throws InterruptedException {
 		
 		String name = "yogesh";
+		String lastName = "kumar";
 		System.setProperty("webdriver.chrome.driver", "D:/ChromeDriver/chromedriver-win64/chromedriver-win64/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
